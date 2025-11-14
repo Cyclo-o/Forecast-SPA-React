@@ -29,6 +29,9 @@ To run the app locally:
 # Install dependencies
 npm install
 
+# Build other dependencies
+npm run build
+
 # To start the development server
 npm run dev
 ```
