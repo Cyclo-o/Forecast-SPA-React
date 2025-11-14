@@ -1,16 +1,43 @@
-# React + Vite
+# Forecast-SPA-React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Single Page Application (SPA) built with React, providing a forecast UI.
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was initialized and set up with the following tools and packages:
 
-## React Compiler
+- **Vite** (not necessarily the very latest version at the time of project creation)
+  ```bash
+  npm create vite@latest
+  ```
+- **React 18** and **React DOM 18**
+  ```bash
+  npm i react@18 react-dom@18
+  ```
+- **Semantic UI React** (beta version) and **Semantic UI CSS**
+  ```bash
+  npm i semantic-ui-react@3.0.0-beta.2 semantic-ui-css
+  ```
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+> _Note: These version choices are important for compatibility. If you use more recent or older versions, some configurations or component behavior may differ from what's documented here._
 
-## Expanding the ESLint configuration
+## Usage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To run the app locally:
+
+```bash
+# Install dependencies
+npm install
+
+# To start the development server
+npm run dev
+```
+
+## Features
+
+- Interactive weather/forecast UI
+- Semantic UI enabled for fast, beautiful components
+
+
+**Contributing:**  
+Feel free to open issues or pull requests for ideas, bug reports, or improvements!
